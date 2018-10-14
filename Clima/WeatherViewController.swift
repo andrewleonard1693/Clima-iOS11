@@ -183,7 +183,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
             getWeatherData(url: WEATHER_URL, parameters: params)
             
         }else {
-            
+            //horixontal accuracy <=0
         }
     }
     
